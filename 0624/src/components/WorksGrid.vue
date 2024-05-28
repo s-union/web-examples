@@ -16,6 +16,22 @@ const items = [
     description: 'テストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテスト',
     path: 'works3.jpg',
   },
+  {
+    title: 'タイトルD',
+    description: 'テストテスト',
+    path: 'works4.jpg',
+  },
+  {
+    title: 'タイトルE',
+    description: 'テスト・テスト・テスト・テスト・テスト・テスト・テスト・テスト・テスト',
+    path: 'works5.jpg',
+  },
+  {
+    title: 'タイトルF',
+    description:
+      'テストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテスト',
+    path: 'works6.jpg',
+  },
 ];
 </script>
 
@@ -43,7 +59,7 @@ const items = [
   grid-template-rows: subgrid;
   grid-row: span 3;
   background-color: #f5f5f5;
-  border-radius: 4%;
+  border-radius: 5%;
   overflow: hidden;
   & img {
     max-width: 100%;
