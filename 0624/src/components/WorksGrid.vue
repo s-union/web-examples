@@ -33,12 +33,16 @@ const items = [
     path: 'works6.jpg',
   },
 ];
+
+const convertImageURL = (img: string) => {
+  return new URL(`../assets/works/${img}`, import.meta.url).href;
+};
 </script>
 
 <template>
   <div class="works_container">
     <div class="works_sub_container" v-for="item in items">
-      <img :src="`/src/assets/works/${item.path}`" />
+      <img :src="convertImageURL(item.path)" />
       <div>
         <h5>{{ item.title }}</h5>
         <span>{{ item.description }}</span>
