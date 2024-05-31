@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import News from './News.vue';
 import WorksGrid from './WorksGrid.vue';
 </script>
 
@@ -18,6 +19,10 @@ import WorksGrid from './WorksGrid.vue';
   <section id="works">
     <h2 class="section_title">Works</h2>
     <WorksGrid />
+  </section>
+  <section id="news">
+    <h2 class="section_title">News</h2>
+    <News />
   </section>
 </template>
 
