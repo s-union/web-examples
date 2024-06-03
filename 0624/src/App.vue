@@ -17,6 +17,5 @@ body {
   max-width: 960px;
   margin-inline: auto;
   padding-inline: 8px;
-  overflow-wrap: break-word;
 }
 </style>
